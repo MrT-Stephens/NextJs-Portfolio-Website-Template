@@ -80,10 +80,19 @@ Due to the website being created using [Next.js](https://nextjs.org/) and [tailw
 
 To host the website I recommend using [GitHub Pages](https://pages.github.com/) which will allow you to host your website for free. It will use GitHub Actions to build and then deploy your Website automatically for you.
 
-1. Create a new repository called `username.github.io`, where _username_ is your username (or organization name) on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will not work, so make sure you get this part right.
-2. Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`. 
-![GitHub-Actions-Example](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64)
-4. Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the `https://username.github.io`, where _username_ is your username (or organization name) on GitHub.
+<ul>
+  <li>
+    Create a new repository called `username.github.io`, where _username_ is your username (or organization name) on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will not
+    work, so make sure you get this part right.
+  </li>
+  <li>
+    Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`. 
+    ![GitHub-Actions-Example](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64)
+  </li>
+  <li>
+    Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the `https://username.github.io`, where _username_ is your username       or organization name on GitHub.
+  </li>
+</ul>
 
 # Lisence
 
