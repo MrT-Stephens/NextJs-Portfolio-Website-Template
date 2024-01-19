@@ -1,4 +1,5 @@
 
+
 <h1 align="center">
   <br>
   Next.js Portfolio Website Template
@@ -28,6 +29,7 @@ This website is built using [Next.js](https://nextjs.org/) and [tailwind CSS](ht
 - Navigation bar follows the page when scrolling.
 - Easily host the template using [GitHub Pages](https://pages.github.com/).
 - Easily change the colour scheme of the webiste.
+- Pre-built GitHub Actions script to build and deploy to GitHub pages.
 
 # Editing the website
 
@@ -54,17 +56,24 @@ Once the repository has been cloned and the development server has been started.
 
 ### Making the Website Yours
 
-To make the Website yours there are three different files that you will need to edit:
+#### Editing the Content
+
+To edit the Websites content there are three different files that you will need to edit:
 1. [Author Data File](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/blob/main/app/(data-arrays)/AuthorData.js) which is located in the directory `app/(data-arryas)/AuthorData.js`.
 2. [Skills Data File](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/blob/main/app/(data-arrays)/SkillsData.js) which is located in the directory `app/(data-arrays)/SkillsData.js`.
 3. [Projects Data File](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/blob/main/app/(data-arrays)/ProjectsData.js) which is located in the directory `app/(data-arrays)/ProjectsData.js`. 
 
+You can edit all data within these files to make the website yours. Including adding/removing items from the `languages`, `hobbies`, `keySkills`, `SkillsData`, `projects`, etc. If items are added/removed from these arrays the website will dynamically adjust to accomidate the extra or less items.
+
+#### Adding/Removing Images
 
 If you would like to add/remove images from the website. This can be done by accessing the `/public/` directory.
 
 If you would like to change the icon of the website. This can be done by replacing the `/app/favicon.ico` file with your `.ico` file (Make sure the name is `favicon.ico`).
 
-You can edit all data within these files to make the website yours. Including adding/removing items from the `languages`, `hobbies`, `keySkills`, `SkillsData`, `projects`, etc. If items are added/removed from these arrays the website will dynamically adjust to accomidate the extra or less items.
+#### Changing the Colour Scheme
+
+To change the colour scheme your will need to goto the `tailwind.config.js` file and you can edit the `colors` for light/dark mode and this will change the colours across the whole website.
 
 ### Editing the Website Futher
 
@@ -72,7 +81,7 @@ Due to the website being created using [Next.js](https://nextjs.org/) and [tailw
 
 # Hosting
 
-To host the website I recommend using [GitHub Pages](https://pages.github.com/) which will allow you to host your website for free. It will use GitHub workflows to build and then deploy your Website automatically for you.
+To host the website I recommend using [GitHub Pages](https://pages.github.com/) which will allow you to host your website for free. It will use GitHub Actions to build and then deploy your Website automatically for you.
 
 1. Create a new repository called `username.github.io`, where _username_ is your username (or organization name) on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will not work, so make sure you get this part right.
 2. Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`. 
