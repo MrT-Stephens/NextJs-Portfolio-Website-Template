@@ -89,7 +89,7 @@ To host the website I recommend using [GitHub Pages](https://pages.github.com/) 
     <img src="https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64"/>
   </li>
   <li>
-    Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the https://username.github.io, where _username_ is your username         or organization name on GitHub.
+    Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the https://username.github.io, where <strong>username</strong> is        your username or organization name on GitHub.
   </li>
 </ul>
 
