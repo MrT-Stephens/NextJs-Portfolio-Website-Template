@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<h4 align="center">A template for a portfolio website built with next.js and tailwind CSS that can easily be edited.</h4>
+<h4 align="center">A template for a portfolio website built with next.js and tailwind CSS that can easily be edited and deployed as your own.</h4>
 
 <p align="center">
   <a href="#features">Features</a> •
