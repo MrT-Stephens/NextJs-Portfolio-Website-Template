@@ -6,6 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
     title: "MrT Stephens",
     description: "A website about MrT Stephens.",
+    templateCreator: {
+        name: "MrT Stephens",
+        url: "https://mrt-stephens.github.io/",
+    }
 };
 
 export default function RootLayout({ children }) {
