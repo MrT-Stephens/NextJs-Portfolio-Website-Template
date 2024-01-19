@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h1 align="center">
+  <br>
+  Next.js Portfolio Website Template
+  <br>
+</h1>
 
-First, run the development server:
+<h4 align="center">A template for a portfolio website built with next.js and tailwind CSS that can easily be edited.</h4>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#editing-the-website">Editing the website</a> •
+  <a href="#hosting">Hosting</a>
+</p>
+
+# Features
+
+This website is built using [Next.js](https://nextjs.org/) and [tailwind CSS](https://tailwindcss.com/). An example of the website can be found [here](https://mrt-stephens.github.io).
+- The website information can be easily edited, by changing three files.
+- Optimised for mobile and desktop and has been tested on many screen resolutions.
+- The website has a home, about, skills, projects, and contact sections.
+- Animated home page.
+- Navigation bar follows the page when scrolling.
+- Easily host the template using [GitHub Pages](https://pages.github.com/).
+- Easily change the colour scheme of the webiste.
+
+# Editing the website
+
+### Opening the Project
+Clone the repository and run the development sever with the commands below. To do this you will need [Node.js](https://nodejs.org/) installed on your device.
 ```
+# Clone the repository.
+git clone https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Enter the directory.
+cd NextJs-Portfolio-Website-Template
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Install packages.
+npm install packages
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Start the development server.
+npm run dev
+```
+Once the repository has been cloned and the development server has been started. You can open the `NextJs-Portfolio-Website-Template` folder within your chosen IDE/text editor.
 
-## Learn More
+### Making the Website Yours
 
-To learn more about Next.js, take a look at the following resources:
+To make the Website yours there are three different files that you will need to edit:
+1. [Author Data File](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/blob/main/app/(data-arrays)/AuthorData.js) which is located in the directory `app/(data-arryas)/AuthorData.js`.
+2. [Skills Data File](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/blob/main/app/(data-arrays)/SkillsData.js) which is located in the directory `app/(data-arrays)/SkillsData.js`.
+3. [Projects Data File](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/blob/main/app/(data-arrays)/ProjectsData.js) which is located in the directory `app/(data-arrays)/ProjectsData.js`. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you would like to add/remove images from the website. This can be done by accessing the `/public/` directory.
 
-## Deploy on Vercel
+If you would like to change the icon of the website. This can be done by replacing the `/app/favicon.ico` file with your `.ico` file (Make sure the name is `favicon.ico`).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can edit all data within these files to make the website yours. Including adding/removing items from the `languages`, `hobbies`, `keySkills`, `SkillsData`, `projects`, etc. If items are added/removed from these arrays the website will dynamically adjust to accomidate the extra or less items.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Editing the Website Futher
+
+Due to the website being created using [Next.js](https://nextjs.org/) and [tailwind CSS](https://tailwindcss.com/) you can easily expand the website to what ever you desire. The main content of the website is within the `/app/page.js` file and there are components that are used within this file, which can be found within the `/app/(components)/` directory.
+
+# Hosting
+
+To host the website I recommend using [GitHub Pages](https://pages.github.com/) which will allow you to host your website for free. It will use GitHub workflows to build and then deploy your Website automatically for you.
+
+1. Create a new repository called `username.github.io`, where _username_ is your username (or organization name) on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will not work, so make sure you get this part right.
+2. Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`.
+![GitHub-Actions-Example](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64)
+4. Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the `https://username.github.io`, where _username_ is your username (or organization name) on GitHub.
