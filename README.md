@@ -10,7 +10,8 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#editing-the-website">Editing the website</a> •
-  <a href="#hosting">Hosting</a>
+  <a href="#hosting">Hosting</a> •
+  <a href="#lisence">Lisence</a>
 </p>
 
 # Features
@@ -66,6 +67,30 @@ Due to the website being created using [Next.js](https://nextjs.org/) and [tailw
 To host the website I recommend using [GitHub Pages](https://pages.github.com/) which will allow you to host your website for free. It will use GitHub workflows to build and then deploy your Website automatically for you.
 
 1. Create a new repository called `username.github.io`, where _username_ is your username (or organization name) on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will not work, so make sure you get this part right.
-2. Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`.
+2. Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`. 
 ![GitHub-Actions-Example](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64)
 4. Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the `https://username.github.io`, where _username_ is your username (or organization name) on GitHub.
+
+# Lisence
+
+MIT License
+
+Copyright (c) 2024 Thomas Stephens
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
