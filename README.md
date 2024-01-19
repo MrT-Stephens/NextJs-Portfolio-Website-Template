@@ -26,6 +26,7 @@ This website is built using [Next.js](https://nextjs.org/) and [tailwind CSS](ht
 - Optimised for mobile and desktop and has been tested on many screen resolutions.
 - The website has a home, about, skills, projects, and contact sections.
 - Animated home page.
+- Supports colours for light/dark mode.
 - Navigation bar follows the page when scrolling.
 - Easily host the template using [GitHub Pages](https://pages.github.com/).
 - Easily change the colour scheme of the webiste.
