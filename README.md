@@ -14,7 +14,7 @@
   <a href="#lisence">Lisence</a>
 </p>
 
-<div align="center">#]
+<div align="center">
   <video src="https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/8eb377f6-b32f-41b8-8333-fd8c3b6fa5cd"/>
 </div>
 
