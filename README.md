@@ -82,12 +82,11 @@ To host the website I recommend using [GitHub Pages](https://pages.github.com/) 
 
 <ul>
   <li>
-    Create a new repository called `username.github.io`, where _username_ is your username (or organization name) on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will not
-    work, so make sure you get this part right.
+    Create a new repository called `username.github.io`, where <i>username</i> is your username or organization name on GitHub. If the first part of the repository name does not exactly match your GitHub username, it will       not work, so make sure you get this part right.
   </li>
   <li>
     Goto `Settings/Pages` within your newly created repository and change the GitHub pages source to `GitHub Actions`. 
-    ![GitHub-Actions-Example](https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64)
+    <img src="https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/cdadc1bc-88d6-425c-9f20-5efee9d2bf64"/>
   </li>
   <li>
     Commit all the items to your newly created repository and GitHub actions should automatically build and deploy your website. You can access it though the `https://username.github.io`, where _username_ is your username       or organization name on GitHub.
