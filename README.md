@@ -37,10 +37,6 @@ This website is built using [Next.js](https://nextjs.org/) and [tailwind CSS](ht
 ### Opening the Project
 Clone the repository and run the development sever with the commands below. To do this you will need [Node.js](https://nodejs.org/) installed on your device.
 ```
-
-https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template/assets/92452307/b2be881a-389d-419f-9c49-9017f22b3652
-
-
 # Clone the repository.
 git clone https://github.com/MrT-Stephens/NextJs-Portfolio-Website-Template.git
 
